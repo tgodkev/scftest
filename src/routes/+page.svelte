@@ -106,10 +106,10 @@
     {#each data as item}
       <!--mapping through the array of objects-->
       {#if item.image}
-        <div class="py-5 flex  justify-center md:w-1/3">
+        <div class="py-5 flex  justify-center w-4/5 md:w-1/3">
           <div
             style="background-image: url({item.image}); height: 25rem; width: 25rem;"
-            class="bg-cover bg-center"
+            class="bg-cover bg-center "
           />
         </div>
       {:else if item.author && item.quote}
