@@ -114,7 +114,9 @@
         </div>
       {:else if item.author && item.quote}
         <!--if there is no image, then showing the quote and author-->
-        <div class="py-2 flex flex-col items-center md:w-1/3">
+        <div
+          class="py-2 flex flex-col justify-center items-center h-[25rem] md:w-1/3"
+        >
           <div class="w-1/2">
             <svg
               class="w-10 h-10 text-gray-500"
@@ -126,7 +128,7 @@
               /></svg
             >
 
-            <p class="text-justify">{item.quote}</p>
+            <p class="text-justify text-lg">{item.quote}</p>
             <h2 class="text-xl font-bold text-orange-700">-{item.author}</h2>
           </div>
         </div>
