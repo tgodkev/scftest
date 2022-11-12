@@ -73,7 +73,7 @@
     <!--left side of title-->
     <div>
       <h2
-        class="font-sans italic uppercase tracking-wide md:px-10 font-bold text-amber-900 text-2xl"
+        class="font-sans italic uppercase tracking-wide text-xl font-bold text-amber-900 md:px-10 md:text-2xl"
       >
         The season of fall
       </h2>
