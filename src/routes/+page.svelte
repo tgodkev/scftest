@@ -133,7 +133,7 @@
       {:else}
         <!--if there is no image and no quote, then showing the call to action info-->
         <div
-          class="min-h-[18rem] flex flex-col mt-10 justify-center items-center bg-gray-300 md:w-1/3"
+          class="h-[25rem] flex flex-col mt-10 justify-center items-center bg-gray-300 md:w-1/3"
         >
           <p class="px-8  text-justify">{item.cta}</p>
           <h2 class="text-xl font-bold">{item.cta2}</h2>
