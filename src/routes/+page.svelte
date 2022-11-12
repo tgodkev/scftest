@@ -107,9 +107,10 @@
       <!--mapping through the array of objects-->
       {#if item.image}
         <div class="py-5 flex  justify-center md:w-1/3">
-          <div class="w-3/4 h-[20rem] md:py-2">
-            <img src={item.image} alt="" class="h-[100%] w-[100%]" />
-          </div>
+          <div
+            style="background-image: url({item.image}); height: 25rem; width: 25rem;"
+            class="bg-cover bg-center"
+          />
         </div>
       {:else if item.author && item.quote}
         <!--if there is no image, then showing the quote and author-->
